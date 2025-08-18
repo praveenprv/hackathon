@@ -1,6 +1,6 @@
 # K8S Agent Orchestrator: Agentic AI for Kubernetes Management
 
-## 🚀 Project Overview
+## Project Overview
 
 **Vision:** Democratize Kubernetes management through intelligent AI agents that understand natural language commands and safely execute complex cluster operations.
 
@@ -8,7 +8,7 @@
 
 **Solution:** An AI-powered multi-agent system that translates natural language into Kubernetes actions, validates operations for safety, and provides intelligent recommendations—making K8S accessible to everyone.
 
-## 💡 Core Innovation
+## Core Innovation
 
 Transform complex commands like:
 ```bash
@@ -22,26 +22,26 @@ Into simple conversations:
 > 
 > **K8S Agent:** "I'll deploy nginx with 3 replicas, create a LoadBalancer service, and set up horizontal auto-scaling at 70% CPU threshold. Executing now... ✅ Deployment successful! Your app is available at http://34.102.136.180"
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 ### Multi-Agent System Design
 
-**🧠 Planning Agent**
+** Planning Agent**
 - Parses natural language queries using GPT-4/Llama 3
 - Breaks down complex requests into actionable steps
 - Generates execution plans with dependency management
 
-**🛡️ Safety Agent**
+** Safety Agent**
 - Validates all operations before execution
 - Prevents destructive actions (data loss, resource conflicts)
 - Implements approval workflows for critical operations
 
-**⚡ Execution Agent**
+** Execution Agent**
 - Interfaces with Kubernetes API via kubectl/client libraries
 - Executes validated commands with real-time feedback
 - Handles rollbacks and error recovery
 
-**📊 Monitoring Agent**
+** Monitoring Agent**
 - Continuously monitors cluster health and performance
 - Provides proactive optimization recommendations
 - Alerts on anomalies and resource constraints
@@ -58,7 +58,7 @@ Into simple conversations:
 | **Frontend** | Streamlit/Gradio Chat Interface |
 | **CI/CD** | GitHub Actions, ArgoCD |
 
-## 🎯 Key Features & Capabilities
+## Key Features & Capabilities
 
 ### Core Functionality
 - **Natural Language Processing**: Convert conversational queries into K8S operations
@@ -74,37 +74,37 @@ Into simple conversations:
 - **Visual Cluster Mapping**: Generate architecture diagrams with AI
 - **Learning System**: Improve responses based on user feedback and cluster patterns
 
-## 📋 Implementation Roadmap
+## Implementation Roadmap
 
-### Phase 1: Foundation (Hours 1-8)
+### Phase 1: Foundation
 - [ ] Set up Minikube cluster and development environment
 - [ ] Implement basic LLM integration (GPT-4o API)
 - [ ] Create core agent framework with LangChain
 - [ ] Build kubectl wrapper and K8S API client
 - [ ] Develop simple chat interface with Streamlit
 
-### Phase 2: Core Agents (Hours 9-16)
+### Phase 2: Core Agents 
 - [ ] Implement Planning Agent with query parsing
 - [ ] Build Safety Agent with validation rules
 - [ ] Create Execution Agent with K8S operations
 - [ ] Add basic error handling and logging
 - [ ] Test core deployment/scaling scenarios
 
-### Phase 3: MLOps Integration (Hours 17-24)
+### Phase 3: MLOps Integration 
 - [ ] Deploy LLM on K8S using KServe
 - [ ] Implement model versioning and monitoring
 - [ ] Add Prometheus metrics and Grafana dashboards
 - [ ] Create CI/CD pipeline with GitHub Actions
 - [ ] Build monitoring agent for proactive insights
 
-### Phase 4: Polish & Demo (Hours 25-32)
+### Phase 4: Polish & Demo 
 - [ ] Enhance UI with rich formatting and visualizations
 - [ ] Add advanced features (multi-cluster, security scanning)
 - [ ] Comprehensive testing and error scenarios
 - [ ] Create demo scenarios and presentation materials
 - [ ] Record demo video and prepare pitch deck
 
-## 🔥 Wow Factor & Differentiators
+## Wow Factor & Differentiators
 
 ### Innovation Highlights
 - **First-of-its-kind** agentic AI system specifically designed for K8S management
@@ -119,7 +119,7 @@ Into simple conversations:
 3. **Performance Optimization**: "My app is slow during peak hours - make it faster and more resilient"
 4. **Security Remediation**: "Scan my cluster for vulnerabilities and fix critical issues"
 
-## 📊 Expected Impact & Benefits
+## Expected Impact & Benefits
 
 ### For Developers
 - **10x faster** K8S operations through natural language
@@ -133,7 +133,7 @@ Into simple conversations:
 - **Faster time-to-market** for cloud-native applications
 - **Democratized DevOps** capabilities across teams
 
-## 🏆 Competition Advantages
+## Competition Advantages
 
 ### Technical Excellence
 - **Full-stack integration** from LLM to K8S APIs
@@ -147,7 +147,7 @@ Into simple conversations:
 - **MLOps maturity** enabling production AI deployments
 - **Developer experience focus** in cloud platforms
 
-## 🛠️ Repository Structure
+## Repository Structure
 
 ```
 k8s-agent-orchestrator/
@@ -172,7 +172,7 @@ k8s-agent-orchestrator/
 └── demo/                  # Demo scenarios and scripts
 ```
 
-## 📈 Success Metrics
+## Success Metrics
 
 - **Functionality**: Successfully execute 10+ different K8S operations via natural language
 - **Safety**: 100% validation coverage with zero destructive actions in testing
@@ -180,7 +180,7 @@ k8s-agent-orchestrator/
 - **User Experience**: Intuitive chat interface with rich feedback and visualizations
 - **Innovation**: Working multi-agent system with MLOps integration on K8S
 
-## 🎤 Team Skills & Expertise
+## Team Skills & Expertise
 
 *[Customize this section based on your team composition]*
 
@@ -189,7 +189,7 @@ k8s-agent-orchestrator/
 - **Full-Stack Development**: Python, FastAPI, React/Streamlit, API design
 - **MLOps**: Model deployment, monitoring, CI/CD, observability
 
-## 📞 Next Steps
+## Next Steps
 
 1. **Repository Setup**: Initialize GitHub repo with project structure
 2. **Environment Preparation**: Set up development cluster and tooling
@@ -199,8 +199,7 @@ k8s-agent-orchestrator/
 
 ---
 
-**Repository**: [github.com/your-team/k8s-agent-orchestrator](https://github.com/your-team/k8s-agent-orchestrator)
-**Demo Video**: [Coming Soon]
-**Live Demo**: [Deployment URL]
+**Repository**: [github.com/your-team/k8s-agent-orchestrator]
+**Demo Video**: 
+**Live Demo**: 
 
-*Ready to revolutionize Kubernetes management with AI? Let's build the future of DevOps together! 🚀*
