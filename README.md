@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-**Vision:** Democratize Kubernetes management through intelligent AI agents that understand natural language commands and safely execute complex cluster operations.
+**Vision:** Kubernetes management through intelligent AI agents that understand natural language commands and safely execute complex cluster operations.
 
-**Problem Statement:** Kubernetes is powerful but notoriously complex. DevOps teams spend countless hours writing YAML configurations, debugging deployments, and managing cluster resources. Non-expert developers often struggle with K8S operations, creating bottlenecks in modern cloud-native workflows.
+**Problem Statement:** Kubernetes is powerful but complex. DevOps teams spend countless hours writing YAML configurations, debugging deployments, and managing cluster resources. Non-expert developers often struggle with K8S operations, creating bottlenecks in modern cloud-native workflows.
 
 **Solution:** An AI-powered multi-agent system that translates natural language into Kubernetes actions, validates operations for safety, and provides intelligent recommendations—making K8S accessible to everyone.
 
